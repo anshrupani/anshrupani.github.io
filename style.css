@@ -48,36 +48,36 @@
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
     color:    rgba(217, 213, 217, 0.7);
     font-size: 11px;
-    font-family: "Monteserrat";
+    font-family: "Poppins";
 
 }
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
    color:    rgba(217, 213, 217, 0.7);
    opacity:  1;
    font-size: 10px;
-   font-family: "Monteserrat";
+   font-family: "Poppins";
 }
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
    color:    rgba(217, 213, 217, 0.7);
    opacity:  1;
    font-size: 10px;
-   font-family: "Monteserrat";
+   font-family: "Poppins";
 }
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
    color:    rgba(217, 213, 217, 0.7);
    font-size: 10px;
-   font-family: "Monteserrat";
+   font-family: "Poppins";
 }
 ::-ms-input-placeholder { /* Microsoft Edge */
    color:    rgba(217, 213, 217, 0.7);
    font-size: 10px;
-   font-family: "Monteserrat";
+   font-family: "Poppins";
 }
 
 ::placeholder { /* Most modern browsers support this now. */
    color:    rgba(217, 213, 217, 0.7);
    font-size: 10px;
-   font-family: "Monteserrat";
+   font-family: "Poppins";
 }
 
 body,html{
@@ -352,7 +352,7 @@ text-shadow: 1px 1px 20px black;
   top:0px;
   visibility:hidden;
   color: #fff;
-  font-family: "Monteserrat";
+  font-family: "Poppins";
   .overlay {
     position:absolute;
     width:100%;
@@ -406,7 +406,7 @@ text-shadow: 1px 1px 20px black;
     height: 80vmin;
     padding: 20px;
     width: 60vmin;
-    font-family: "Monteserrat";
+    font-family: "Poppins";
     overflow-y: scroll;
   }
 
@@ -423,7 +423,7 @@ text-shadow: 1px 1px 20px black;
   
   .title {
     color: #eee;
-    font-family: "Monteserrat";
+    font-family: "Poppins";
     font-size: 3.2vmin;
     font-weight: 600;
     margin-top: 0px;
@@ -431,7 +431,7 @@ text-shadow: 1px 1px 20px black;
   
   .subtitle {
     color: #eee;
-    font-family: "Monteserrat";
+    font-family: "Poppins";
     font-size: 2.3vmin;
     font-weight: 200;
     margin-top: 10px;
@@ -459,7 +459,7 @@ text-shadow: 1px 1px 20px black;
     outline: 0;
     border-bottom: 2px solid white;
     box-sizing: border-box;
-    font-family: "Monteserrat";
+    font-family: "Poppins";
     color: #eee;
     font-size: 2vmin;
     text-align: center;
@@ -472,7 +472,7 @@ text-shadow: 1px 1px 20px black;
   
   .placeholder {
     color: #fff;
-    font-family: "Monteserrat";
+    font-family: "Poppins";
     font-weight: 200;
     font-size: 2vmin;
     left: 0px;
@@ -494,7 +494,7 @@ text-shadow: 1px 1px 20px black;
     color: #eee;
     cursor: pointer;
     font-size: 2vmin;
-    font-family: "Monteserrat";
+    font-family: "Poppins";
     height: 8vmin;
     margin-top: 38px;
     outline: 0;
@@ -570,7 +570,7 @@ text-shadow: 1px 1px 20px black;
     align-items: center;
     flex-direction: column;
     color: #fff;
-    font-family: "Monteserrat";
+    font-family: "Poppins";
     font-size: 1.7vmin;
     font-weight: 300;
     left: 50%;
