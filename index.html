@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PartyPal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="bgoverlay">
+        <div class="logo">
+            <img src="./imgs/partypal_white.svg">
+        </div>
+        <div class="bg">
+            <div class="bg-image img1"></div>
+            <div class="bg-image img2"></div>
+            <div class="bg-image img3"></div>
+            <div class="bg-image img4"></div>
+            <div class="bg-image img5"></div>
+            <div class="bg-image img6"></div>
+            <div class="bg-image img7"></div>
+            <div class="bg-image img8"></div>
+        </div>
+        <div class="Section_top">
+            <div class="content">
+                <h1><span></span></h1>
+            </div>
+        </div>
+        <div class="button">
+            <span id="edit"><img src="./imgs/borderbuttonnew.svg"></span>
+        </div>
+        <div class="box-modal" id="formModal">
+            <div class="overlay"></div>
+            <div class="body-modal">
+            <div class="inner-body-modal">
+                <form class="form" role="form" id="newModalForm" onsubmit="openModal()" autocomplete="off">
+                    <div class="title">Welcome to the PartyPal community &#128588;&#127997; <br> <br> We're thrilled to have you here. </div>
+                    <div class="subtitle">Our mission is twofold: to empower creatives like you to seamlessly build & showcase your portfolio and land more gigs &#128161;</div>
+                    <div class="cross">
+                        <img src="./imgs/crosssss.svg">
+                    </div>
+                    <div class="input-container ic1">
+                    <input id="firstname" class="input" type="text" placeholder=" " required/>
+                    <label for="firstname" class="placeholder">First Name*</label>
+                    </div>
+                    <div class="input-container ic2">
+                    <input id="lastname" class="input" type="text" placeholder=" " />
+                    <label for="lastname" class="placeholder">Last Name</label>
+                    </div>
+                    <div class="input-container ic2">
+                        <input id="email" class="input" type="email" placeholder=" " required/>
+                        <label for="email" class="placeholder">Email*</>
+                    </div>
+                    <div class="input-container ic2">
+                        <input id="profession" class="input" type="text" placeholder="(DJ, photographer,&#10;musician, vibe curator..)" required/>
+                        <label for="profession" class="placeholder">Your Craft*</>
+                    </div>
+                    <div class="input-container ic2">
+                        <input id="insta" class="input" type="text" placeholder=" " />
+                        <label for="insta" class="placeholder">Instagram</>
+                    </div>
+                    <div class="input-container ic2">
+                        <input id="website" class="input" type="text" placeholder=" " />
+                        <label for="website" class="placeholder">Website</>
+                    </div>
+                    <button type="submit" id="submit" class="submit">Submit</button>
+                </form>
+            </div>
+            </div>
+        </div>
+        <div class="slanted">coming soon, xoxo &#129782;&#127997; </div>
+    </div>
+    <div class="box-modal" id="myModal">
+        <div class="overlay"></div>
+        <div class="body-modal">
+        <div class="inner-body-modal">
+                <div class="subtitle">Thanks for stopping by, we’ll be in touch shortly :)</div>
+        </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <ul class="social-icon">
+          <li class="social-icon__item"><a class="social-icon__link" href="#">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a></li>
+        </ul>
+        <p>&copy;Partypal Inc. | All Rights Reserved</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script language="JavaScript" type="text/javascript" src="button.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

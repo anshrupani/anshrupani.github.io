@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="115.8235 129.6099 218.8654 218.5815" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <g transform="matrix(2.041959, 0, 0, 2.041959, 22.115988, -65.323631)">
+      <path style="fill: rgb(216, 216, 216); stroke-width: 6.36644px; stroke: rgb(255, 255, 255);" d="M 45.891 95.464 L 152.932 202.42"/>
+      <path style="fill: rgb(216, 216, 216); transform-origin: 99.553px 149.04px; stroke-width: 6.36644px; stroke: rgb(255, 255, 255);" d="M 46.084 95.518 L 153.022 202.561" transform="matrix(0, 1, -1, 0, 0.000016, 0.000002)"/>
+    </g>
+  </g>
+</svg>
