@@ -326,8 +326,10 @@ text-shadow: 1px 1px 20px black;
 .button span {
 	position: fixed;
   /* max-width: 8%; */
-  height: 5vmin;
-  width: 18vmin;
+  /* height: 5vmin;
+  width: 18vmin; */
+  height: 8vmin;
+  width: 24vmin;
   /* min-width: 12%;
 	height: 6%; 
     width: 12%; */
@@ -405,7 +407,7 @@ text-shadow: 1px 1px 20px black;
     box-sizing: border-box;
     height: 80vmin;
     padding: 20px;
-    width: 60vmin;
+    width: 70vmin;
     font-family: "Poppins";
     overflow-y: scroll;
   }
@@ -473,8 +475,8 @@ text-shadow: 1px 1px 20px black;
   .placeholder {
     color: #fff;
     font-family: "Poppins";
-    font-weight: 200;
-    font-size: 2vmin;
+    font-weight: 400;
+    font-size: 2.3vmin;
     left: 0px;
     line-height: 4px;
     pointer-events: none;
@@ -493,7 +495,7 @@ text-shadow: 1px 1px 20px black;
     box-sizing: border-box;
     color: #eee;
     cursor: pointer;
-    font-size: 2vmin;
+    font-size: 2.3vmin;
     font-family: "Poppins";
     height: 8vmin;
     margin-top: 38px;
@@ -583,3 +585,7 @@ text-shadow: 1px 1px 20px black;
   ::-webkit-scrollbar {
     display: none;
   }
+
+  input {
+    -webkit-appearance: none;
+}
