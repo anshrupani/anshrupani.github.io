@@ -587,5 +587,8 @@ text-shadow: 1px 1px 20px black;
   }
 
   input {
-    -webkit-appearance: none;
+    appearance: none;
+    -webkit-appearance: none; 
+    -moz-appearance: none;
 }
+
