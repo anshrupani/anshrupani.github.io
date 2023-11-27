@@ -427,16 +427,17 @@ text-shadow: 1px 1px 20px black;
     color: #eee;
     font-family: "Poppins";
     font-size: 3.2vmin;
-    font-weight: 600;
+    font-weight: 400;
     margin-top: 0px;
+    margin-bottom: 15px;
   }
   
   .subtitle {
+    margin-top: 25px;
     color: #eee;
     font-family: "Poppins";
     font-size: 2.3vmin;
     font-weight: 200;
-    margin-top: 10px;
   }
   
   .input-container {
@@ -459,7 +460,7 @@ text-shadow: 1px 1px 20px black;
     background-color: rgba(0, 0, 0, 0.05);
     border: 0;
     outline: 0;
-    border-bottom: 2px solid white;
+    border-bottom: 1.5px solid white;
     box-sizing: border-box;
     font-family: "Poppins";
     color: #eee;
