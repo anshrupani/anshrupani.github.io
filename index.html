@@ -42,27 +42,39 @@
                         <img src="./imgs/crosssss.svg">
                     </div>
                     <div class="input-container ic1">
-                    <input id="firstname" class="input" type="text" placeholder=" " required/>
+                    <input id="firstname" class="input" type="text" placeholder=" " onfocus="this.removeAttribute('readonly');" readonly required/>
                     <label for="firstname" class="placeholder">First Name*</label>
                     </div>
                     <div class="input-container ic2">
-                    <input id="lastname" class="input" type="text" placeholder=" " />
+                    <input id="lastname" class="input" type="text" placeholder=" " onfocus="this.removeAttribute('readonly');" readonly/>
                     <label for="lastname" class="placeholder">Last Name</label>
                     </div>
                     <div class="input-container ic2">
-                        <input id="email" class="input" type="email" placeholder=" " required/>
+                        <input id="email" class="input" type="email" placeholder=" " onfocus="this.removeAttribute('readonly');" readonly required/>
                         <label for="email" class="placeholder">Email*</>
                     </div>
                     <div class="input-container ic2">
-                        <input id="profession" class="input" type="text" placeholder="(DJ, photographer, etc.)" required/>
+                        <select id="profession" onChange="check(this)" required="true">
+                            <option value="">Select Your Craft</option>
+                            <option value="dj">DJ</option>
+                            <option value="musician">Musician</option>
+                            <option value="band">Band</option>
+                            <option value="photographer">Photographer</option>
+                            <option value="videographer">Videographer</option>
+                            <option value="other">Other</option>
+                        </select>
                         <label for="profession" class="placeholder">Your Craft*</>
                     </div>
+                    <div class="input-container ic2" id="other-div" style="display:none;">
+                        <input class="input" type="text" placeholder=" " id="other-input" onfocus="this.removeAttribute('readonly');" readonly></input>
+                        <label class="placeholder" >Your Craft (other)*</label>
+                    </div>
                     <div class="input-container ic2">
-                        <input id="insta" class="input" type="text" placeholder=" " />
+                        <input id="insta" class="input" type="text" placeholder=" " onfocus="this.removeAttribute('readonly');" readonly/>
                         <label for="insta" class="placeholder">Instagram</>
                     </div>
                     <div class="input-container ic2">
-                        <input id="website" class="input" type="text" placeholder=" " />
+                        <input id="website" class="input" type="text" placeholder=" " onfocus="this.removeAttribute('readonly');" readonly/>
                         <label for="website" class="placeholder">Website</>
                     </div>
                     <button type="submit" id="submit" class="submit">Submit</button>

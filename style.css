@@ -457,7 +457,7 @@ text-shadow: 1px 1px 20px black;
   }
   
   .input {
-    background-color: rgba(0, 0, 0, 0.05);
+    background-color: rgba(0, 0, 0, 0);
     border: 0;
     outline: 0;
     border-bottom: 1.5px solid white;
@@ -471,6 +471,22 @@ text-shadow: 1px 1px 20px black;
     height: 100%;
     padding: 4px 8px 0;
     width: 50%;
+    display:block;
+  }
+
+  select {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    outline: 0;
+    color: #eee;
+    display: inline-block;
+    text-align: center;
+    float: right;
+    padding: 4px 8px 0;
+    width: 50%;
+    max-width: 200px;
+    box-sizing: border-box;
+    font-family: "Poppins";
   }
   
   .placeholder {
