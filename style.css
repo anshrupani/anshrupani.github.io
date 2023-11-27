@@ -586,9 +586,11 @@ text-shadow: 1px 1px 20px black;
     display: none;
   }
 
-  input {
-    appearance: none;
-    -webkit-appearance: none; 
-    -moz-appearance: none;
+input {
+  border-radius: 0;
+  -webkit-appearance: none;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-border-radius:0
 }
 
