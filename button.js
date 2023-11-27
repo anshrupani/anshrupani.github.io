@@ -192,3 +192,27 @@ $('#newModalForm').on('submit', function(e){
 // $("input[type='text']").bind('focus', function() {
 //    $(this).css('background-color', 'none');
 // });
+
+// $(document).ready(function() {
+//   setTimeout(function() {
+//       $('html, body').animate({
+//          scrollTop: $('#bglast').offset().top 
+//       },2000);
+//   }, 500);
+// });
+
+// function pageScroll() {
+//   window.scrollBy(0,1);
+//   scrolldelay = setTimeout(pageScroll,10);
+// }
+// setTimeout(function () {
+//   window.scrollTo(0, 300);
+// },200);
+
+$('#bg').animate({ scrollTop: $('#bglast').offset().top  }, 2000);
+$('#bg').animate({ scrollTop: $('#bgfirst').offset().top  }, 750);
+
+
+// $(document).ready(function(){
+//   $('body,html').animate({scrollTop: 300}, 10); 
+// });
