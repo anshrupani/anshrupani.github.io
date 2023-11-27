@@ -477,7 +477,8 @@ text-shadow: 1px 1px 20px black;
     color: #fff;
     font-family: "Poppins";
     font-weight: 400;
-    font-size: 2.3vmin;
+    /* font-size: 2.3vmin; */
+    font-size: 16px!important; 
     left: 0px;
     line-height: 4px;
     pointer-events: none;
@@ -592,6 +593,7 @@ input {
   -webkit-appearance: none;
   appearance: none;
   -moz-appearance: none;
-  -webkit-border-radius:0
+  -webkit-border-radius:0;
+  font-size: 16px!important; 
 }
 
