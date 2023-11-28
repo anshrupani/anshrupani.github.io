@@ -312,6 +312,7 @@ text-shadow: 1px 1px 20px black;
 	left: 50%;
 	transform: translate(-50%, -50%);
   filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.8));
+  touch-action: none;
 }
 
 
@@ -537,6 +538,7 @@ text-shadow: 1px 1px 20px black;
     margin: 10px 0px;
     margin-left: -15px;
     flex-wrap: wrap;
+    touch-action: none;
   }
   
   .social-icon__item {
@@ -577,6 +579,7 @@ text-shadow: 1px 1px 20px black;
 	  transform: translate(-50%, -50%);
     white-space:nowrap;
     margin-bottom: -1px;
+    pointer-events: none;
   }
 
 
