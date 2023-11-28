@@ -6,6 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PartyPal</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
@@ -42,15 +51,15 @@
                         <img src="./imgs/crosssss.svg">
                     </div>
                     <div class="input-container ic1">
-                    <input id="firstname" class="input" type="text" placeholder=" " onfocus="this.removeAttribute('readonly');" readonly required/>
+                    <input id="firstname" class="input" type="text" placeholder=" " required/>
                     <label for="firstname" class="placeholder">First Name*</label>
                     </div>
                     <div class="input-container ic2">
-                    <input id="lastname" class="input" type="text" placeholder=" " onfocus="this.removeAttribute('readonly');" readonly/>
+                    <input id="lastname" class="input" type="text" placeholder=" "/>
                     <label for="lastname" class="placeholder">Last Name</label>
                     </div>
                     <div class="input-container ic2">
-                        <input id="email" class="input" type="email" placeholder=" " onfocus="this.removeAttribute('readonly');" readonly required/>
+                        <input id="email" class="input" type="email" placeholder=" " required/>
                         <label for="email" class="placeholder">Email*</>
                     </div>
                     <div class="input-container ic2">
@@ -66,15 +75,15 @@
                         <label for="profession" class="placeholder">Your Craft*</>
                     </div>
                     <div class="input-container ic2" id="other-div" style="display:none;">
-                        <input class="input" type="text" placeholder=" " id="other-input" onfocus="this.removeAttribute('readonly');" readonly></input>
-                        <label class="placeholder" >Your Craft (other)*</label>
+                        <input class="input" type="text" placeholder=" " id="other-input" ></input>
+                        <label class="placeholder" >Other*</label>
                     </div>
                     <div class="input-container ic2">
-                        <input id="insta" class="input" type="text" placeholder=" " onfocus="this.removeAttribute('readonly');" readonly/>
+                        <input id="insta" class="input" type="text" placeholder=" "/>
                         <label for="insta" class="placeholder">Instagram</>
                     </div>
                     <div class="input-container ic2">
-                        <input id="website" class="input" type="text" placeholder=" " onfocus="this.removeAttribute('readonly');" readonly/>
+                        <input id="website" class="input" type="text" placeholder=" "/>
                         <label for="website" class="placeholder">Website</>
                     </div>
                     <button type="submit" id="submit" class="submit">Submit</button>
