@@ -343,6 +343,7 @@ text-shadow: 1px 1px 20px black;
     max-height:0px;
     opacity:0;
     overflow:hidden;
+    touch-action: none;
     .inner-body-modal {
       background: rgba(0, 0, 0, 0.5);
       padding:25px;
@@ -367,8 +368,8 @@ text-shadow: 1px 1px 20px black;
      .body-modal {
        max-height:1000px;
        opacity:1;
-       transition:0.3s max-height 0.8s, 0.3s opacity 0.6s, ;
        touch-action: none;
+       transition:0.3s max-height 0.8s, 0.3s opacity 0.6s, ;
      }
   }
   
@@ -384,7 +385,6 @@ text-shadow: 1px 1px 20px black;
     width: 70vmin;
     font-family: "Poppins";
     overflow-y: scroll;
-    touch-action: none;
   }
 
   .cross {
@@ -463,16 +463,7 @@ text-shadow: 1px 1px 20px black;
     box-sizing: border-box;
     font-family: "Poppins";
     font-size:2.3vmin!important;
-    /* -webkit-appearance: none;
-    appearance: none;
-    -moz-appearance: none; */
   }
-  option:checked { background: #fff!important; }
-  select option {
-    background-color: green!important;
-    font-weight: bold!important;
-    color: red!important;
-}
 
   .placeholder {
     color: #fff;
