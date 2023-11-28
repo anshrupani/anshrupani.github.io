@@ -325,6 +325,7 @@ text-shadow: 1px 1px 20px black;
   top:0px;
   visibility:hidden;
   color: #fff;
+  touch-action: none;
   font-family: "Poppins";
   .overlay {
     position:absolute;
@@ -335,6 +336,7 @@ text-shadow: 1px 1px 20px black;
     background:#000;
     opacity:0;
     transition:opacity 1.3s;
+    touch-action: none;
   }
   
   .body-modal {
@@ -366,6 +368,7 @@ text-shadow: 1px 1px 20px black;
        max-height:1000px;
        opacity:1;
        transition:0.3s max-height 0.8s, 0.3s opacity 0.6s, ;
+       touch-action: none;
      }
   }
   
@@ -381,6 +384,7 @@ text-shadow: 1px 1px 20px black;
     width: 70vmin;
     font-family: "Poppins";
     overflow-y: scroll;
+    touch-action: none;
   }
 
   .cross {
