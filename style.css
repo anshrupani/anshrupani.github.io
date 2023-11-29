@@ -604,3 +604,8 @@ input {
   font-size: 16px!important; 
 }
 
+.vertical-align-center {
+  /* To center vertically */
+  display: table-cell;
+  vertical-align: middle;
+}
