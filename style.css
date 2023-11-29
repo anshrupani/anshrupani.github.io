@@ -61,7 +61,13 @@ body,html{
         }
     }
 }
-.modal-open, body {overflow: inherit !important;}
+body.modal-open {
+  /* block scroll for mobile; */
+  /* causes underlying page to jump to top; */
+  /* prevents scrolling on all screens */
+  overflow: hidden;
+  position: fixed;
+}
 
 .bgoverlay { 
   overflow-y: auto;
