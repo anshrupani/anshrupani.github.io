@@ -62,6 +62,12 @@ body,html{
         }
     }
 }
+body.fixed, html.fixed {
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
 body.modal-open {
   /* block scroll for mobile; */
   /* causes underlying page to jump to top; */
@@ -445,6 +451,12 @@ text-shadow: 1px 1px 20px black;
     margin-top: 30px;
   }
   
+  .ic3 {
+    margin-top: 30px;
+    display: grid;
+    place-items: center;
+  }
+  
   .input {
     background-color: rgba(0, 0, 0, 0);
     border: 0;
@@ -477,8 +489,10 @@ text-shadow: 1px 1px 20px black;
     max-width: 200px;
     box-sizing: border-box;
     font-family: "Poppins";
-    font-size:2.3vmin;
-    -webkit-appearance: listbox !important;
+    font-size: 1.7vmin!important;
+    -webkit-appearance: menulist !important;
+    margin-left: 45%!important;
+    margin-right: auto!important;
   }
 
   .placeholder {

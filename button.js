@@ -46,3 +46,12 @@ function check(elem) {
       document.getElementById("other-div").style.display = 'none';
   }
 }
+
+
+$('input').on('focus', function () {
+  $('html,body').addClass('fixed');
+});
+
+$('input').on('blur', function () {
+  $('html,body').removeClass('fixed');
+});
