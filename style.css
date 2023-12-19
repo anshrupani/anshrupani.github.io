@@ -53,6 +53,7 @@ body,html{
     width: 100%;
     font-family: 'Poppins';
     background-color: black;
+    background-attachment:fixed;
     &.active-modal {
         overflow:hidden;
         header.header {
@@ -78,6 +79,8 @@ body.modal-open {
 
 .bgoverlay { 
   overflow-y: auto;
+  position: fixed;
+  width: 100%;
   height: 100%;
   z-index: 252;
   overscroll-behavior: contain;
