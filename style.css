@@ -455,6 +455,7 @@ text-shadow: 1px 1px 20px black;
   }
   
   .ic3 {
+    position: relative;
     margin-top: 30px;
     display: grid;
     place-items: center;
@@ -478,7 +479,7 @@ text-shadow: 1px 1px 20px black;
     display:block;
   }
 
-  select {
+  .ic3 select {
     background-color: rgba(0, 0, 0, 0);
     border: 0;
     outline: 0;
@@ -486,18 +487,39 @@ text-shadow: 1px 1px 20px black;
     display: inline-block;
     text-align-last:center;
     text-align: center;
-    float: right;
     padding: 4px 8px 0;
     width: 50%;
     max-width: 200px;
     box-sizing: border-box;
     font-family: "Poppins";
     font-size: 1.7vmin!important;
-    -webkit-appearance: menulist !important;
     margin-left: 45%!important;
     margin-right: auto!important;
-    appearance: menulist !important;
-    -moz-appearance: menulist !important;
+    /* These lines are removed since they conflict with new styles */
+    /* float: right; */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+
+  /* Arrow */
+  .ic3::after { 
+      content: "\25BC";
+      position: absolute;
+      top: calc(50% - 0.5em); /* center vertically */
+      right: 10px;
+      color: #fff; /* color of the arrow */
+      font-size: 1.7vmin; /* size of the arrow */
+      pointer-events: none; /* makes the click go "through" the pseudo-element, allowing to click the select box */
+  }
+
+  @media (max-width: 600px) {
+    .ic3 select {
+      font-size: 2.8vmin!important; /* increase font size */
+    }
+    .ic3::after {
+      font-size: 2.8vmin; /* also increase the arrow size */
+    }
   }
 
   .placeholder {
