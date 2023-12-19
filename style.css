@@ -53,6 +53,7 @@ body,html{
     width: 100%;
     font-family: 'Poppins';
     background-color: black;
+    background-attachment:fixed;
     &.active-modal {
         overflow:hidden;
         header.header {
@@ -78,6 +79,8 @@ body.modal-open {
 
 .bgoverlay { 
   overflow-y: auto;
+  position: fixed;
+  width: 100%;
   height: 100%;
   z-index: 252;
   overscroll-behavior: contain;
@@ -493,6 +496,8 @@ text-shadow: 1px 1px 20px black;
     -webkit-appearance: menulist !important;
     margin-left: 45%!important;
     margin-right: auto!important;
+    appearance: menulist !important;
+    -moz-appearance: menulist !important;
   }
 
   .placeholder {
@@ -618,7 +623,7 @@ input {
   appearance: none;
   -moz-appearance: none;
   -webkit-border-radius:0;
-  font-size: 16px!important; 
+  font-size: 16px; 
 }
 
 .vertical-align-center {
